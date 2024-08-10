@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default function About() {
     return (
         <div className='px-4 py-12 max-w-4xl mx-auto'>
@@ -28,7 +29,7 @@ export default function About() {
                     <ul className='text-gray-700 mb-4 space-y-2'>
                         <li>
                             <a
-                                href='https://github.com/sahandghavidel/next-auth-app'
+                                href='https://github.com/a7medk7aledak/auth-project-using-nextjs'
                                 target='_blank'
                                 rel='noopener noreferrer'
                                 className='flex items-center text-blue-500 hover:underline'
@@ -45,19 +46,19 @@ export default function About() {
                         </li>
                         <li>
                             <a
-                                href='https://go.clerk.com/O9JPZR5'
-                                target='_blank'
-                                rel='noopener noreferrer'
-                                className='flex items-center text-blue-500 hover:underline'
+                                href="https://bak-technology.web.app"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="flex items-center text-blue-500 hover:underline"
                             >
                                 <svg
-                                    className='w-5 h-5 mr-2'
-                                    fill='currentColor'
-                                    viewBox='0 0 20 20'
+                                    className="w-5 h-5 mr-2"
+                                    fill="currentColor"
+                                    viewBox="0 0 20 20"
                                 >
-                                    <path d='M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-4H9V5h2v4z' />
+                                    <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm1 11H9v-2h2v2zm0-4H9V5h2v4z" />
                                 </svg>
-                                Clerk Documentation
+                                bak-technology
                             </a>
                         </li>
                     </ul>
